@@ -1,0 +1,30 @@
+header{
+    background-color:red;
+    padding: 0px;
+}
+h1{
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+a{
+    color: brown;
+}
+a:hover{
+    color: black;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a{
+    padding: 1px;
+    display: inline-block;
+}

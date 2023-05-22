@@ -1,0 +1,28 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 5px;
+}
+
+ul li a{
+    background-color: rgb(250, 78, 78);
+    height: 250px;
+    width: 400px;
+    border: 1px solid red;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+li a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+
+}
